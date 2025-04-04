@@ -4,3 +4,693 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: nuget
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/AllExperiments
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/Common.UI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/FilePreviewCommon
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/GPOWrapperProjection
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/ManagedCommon
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/ManagedTelemetry/Telemetry
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/UITestAutomation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/common/interop/interop-tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/dsc/PowerToys.Settings.DSC.Schema.Generator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/AdvancedPaste/AdvancedPaste.FuzzTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/AdvancedPaste/AdvancedPaste.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/AdvancedPaste/AdvancedPaste
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/EnvironmentVariables/EnvironmentVariables
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/EnvironmentVariables/EnvironmentVariablesUILib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/FileLocksmith/FileLocksmithUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Hosts/Hosts.FuzzTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Hosts/Hosts.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Hosts/Hosts.UITests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Hosts/Hosts
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Hosts/HostsUILib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MeasureTool/MeasureToolUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseUtils/MouseJump.Common.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseUtils/MouseJump.Common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseUtils/MouseJumpUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseWithoutBorders/App/Helper
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseWithoutBorders/App
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseWithoutBorders/App/Service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/MouseWithoutBorders/MouseWithoutBorders.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/PowerOCR/PowerOCR
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Workspaces/WorkspacesCsharpLibrary
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Workspaces/WorkspacesEditor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/Workspaces/WorkspacesLauncherUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/awake/Awake
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/ExtensionTemplate/TemplateCmdPalExtension/TemplateCmdPalExtension
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/ExtensionTemplate/TemplateCmdPalExtension
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.Apps
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.Bookmark
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.Calc
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.ClipboardHistory
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.Indexer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.Registry
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.Shell
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.System
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.TimeDate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.WebSearch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.WindowWalker
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.WindowsServices
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.WindowsSettings
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/Microsoft.CmdPal.Ext.WindowsTerminal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/ProcessMonitorExtension
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Exts/SamplePagesExtension
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Microsoft.CmdPal.Common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Microsoft.CmdPal.UI.ViewModels
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/Microsoft.CmdPal.UI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/extensionsdk/Microsoft.CommandPalette.Extensions.Toolkit
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/cmdpal/exts/Microsoft.CmdPal.Ext.WinGet
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/colorPicker/ColorPickerUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/colorPicker/UnitTest-ColorPickerUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/fancyzones/FancyZonesEditorCommon
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/fancyzones/UITests-FancyZones
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/fancyzones/UITests-FancyZonesEditor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/fancyzones/UnitTests-FancyZonesEditor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/fancyzones/editor/FancyZonesEditor
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/imageresizer/tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/imageresizer/ui
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/keyboardmanager/KeyboardManagerEditorUI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.UnitConverter.UnitTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.UnitConverter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.VSCodeWorkspaces
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.ValueGenerator.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.ValueGenerator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Community.PowerToys.Run.Plugin.WebSearch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Folder.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Folder
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Indexer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Program.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Program
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Shell
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Uri.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.Uri
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.WindowWalker.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.Plugin.WindowWalker
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.Calculator.UnitTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.Calculator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.History
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.OneNote
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.PowerToys
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.Registry.UnitTest
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.Registry
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.Service
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.System.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.System
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.TimeDate.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.TimeDate
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.WindowsSettings
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.WindowsTerminal.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Plugins/Microsoft.PowerToys.Run.Plugin.WindowsTerminal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/PowerLauncher.Telemetry
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/PowerLauncher
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Wox.Infrastructure
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Wox.Plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/launcher/Wox.Test
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/peek/Peek.Common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/peek/Peek.FilePreviewer
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/peek/Peek.UI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/poweraccent/PowerAccent.Core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/poweraccent/PowerAccent.UI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/GcodePreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/GcodeThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/MarkdownPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/MonacoPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/PdfPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/PdfThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/QoiPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/QoiThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/StlThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/SvgPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/SvgThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-GcodePreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-GcodeThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-MarkdownPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-PdfPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-PdfThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-PreviewHandlerCommon
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-QoiPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-QoiThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-StlThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-SvgPreviewHandler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/UnitTests-SvgThumbnailProvider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/previewpane/common
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/registrypreview/RegistryPreview.FuzzTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/registrypreview/RegistryPreview
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/modules/registrypreview/RegistryPreviewUILib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/settings-ui/Settings.UI.Library
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/settings-ui/Settings.UI.UnitTests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/settings-ui/Settings.UI
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /tools/FancyZone_HitTest/FancyZone_HitTest
+    schedule:
+      interval: daily
